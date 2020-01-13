@@ -69,17 +69,41 @@
 				FB83151223CD06E100A33B04 /* AppDelegate.swift */,
 				FB83151423CD06E100A33B04 /* SceneDelegate.swift */,
 				FB83151823CD06E100A33B04 /* Main.storyboard */,
-				FB83152A23CD097300A33B04 /* AlbumDetailTableViewController.swift */,
-				FB83152C23CD0EBD00A33B04 /* SongTableViewCell.swift */,
-				FB83152E23CD110A00A33B04 /* Album.swift */,
-				FB83152823CD081C00A33B04 /* AlbumsTableViewController.swift */,
-				FB83153023CD1D2000A33B04 /* AlbumController.swift */,
+				FB83153323CD200100A33B04 /* ViewControllers */,
+				FB83153223CD1FE000A33B04 /* Models */,
 				FB83151B23CD06E800A33B04 /* Assets.xcassets */,
 				FB83151D23CD06E800A33B04 /* LaunchScreen.storyboard */,
 				FB83152023CD06E800A33B04 /* Info.plist */,
 				FB83152623CD070A00A33B04 /* exampleAlbum.json */,
 			);
 			path = "ios-albums";
+			sourceTree = "<group>";
+		};
+		FB83153223CD1FE000A33B04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB83152E23CD110A00A33B04 /* Album.swift */,
+				FB83153423CD203B00A33B04 /* Model Controller */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB83153323CD200100A33B04 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB83152A23CD097300A33B04 /* AlbumDetailTableViewController.swift */,
+				FB83152823CD081C00A33B04 /* AlbumsTableViewController.swift */,
+				FB83152C23CD0EBD00A33B04 /* SongTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FB83153423CD203B00A33B04 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB83153023CD1D2000A33B04 /* AlbumController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
